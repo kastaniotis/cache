@@ -11,7 +11,8 @@
     "require-dev": {
         "phpunit/phpunit": "^12.1",
         "phpstan/phpstan": "^2.1",
-        "symfony/var-dumper": "^7.2"
+        "symfony/var-dumper": "^7.2",
+        "friendsofphp/php-cs-fixer": "^3.75"
     },
     "license": "MIT",
     "autoload": {
