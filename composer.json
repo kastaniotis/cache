@@ -1,0 +1,36 @@
+{
+    "name": "iconic/cache",
+    "description": "Simple File Caching Library",
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.2",
+        "iconic/assert": "^1.0",
+        "iconic/types": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^12.1",
+        "phpstan/phpstan": "^2.1",
+        "symfony/var-dumper": "^7.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iconic\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Iconic\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Dimitris Kastaniotis",
+            "email": "d.kastaniotis@iconic.gr"
+        }
+    ],
+    "scripts": {
+        "test": "vendor/bin/phpunit && vendor/bin/phpstan"
+    }
+}
